@@ -10,10 +10,10 @@ int main(){
 
     // 1
    
-    cout<<"Masukan Jumlah Kolom :";
+    cout<<"Masukan Jumlah Baris :";
     cin>>k;
    
-    cout<<"Masukan Jumlah Baris :";
+    cout<<"Masukan Jumlah Kolom :";
     cin>>l;
     
      int arr_num[k][l];
@@ -24,7 +24,7 @@ int main(){
        
         for (int j = 0; j < l; j++)
         {
-            cout<<"Masukan nilai untuk kolom "<<i+1<<" dan baris  "<<j+1<<" :"; 
+            cout<<"Masukan nilai untuk Baris "<<i+1<<" dan Kolom  "<<j+1<<" :"; 
             cin>>arr_num[i][j];
         }
          cout<<endl;
