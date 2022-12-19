@@ -5,8 +5,13 @@
 <br>Jurusan		:[Teknik Informatika](http://if.uinsgd.ac.id/) [UIN Sunan Gunung Djati Bandung](https://uinsgd.ac.id/) 
 
 ## Deskripsi Umum
-<br> program untuk menginput array 2 dimensi dengan kolom dan baris yang ditentukan ...lalu di rubah menjadi kolom menjadi baris dan baris menjadi kolom
-<br> program untukk  melihat angka yang habis di bagi 3 5 7 dengan batas maksimal di inputkan
+Array dua dimensi adalah sebutan untuk array yang penomoran index-nya menggunakan 2 buah angka.Analogi lain adalah matriks. Dalam matematika, matriks terdiri dari kolom dan baris. Kembali, untuk menentukan nilai dari sebuah matriks, kita harus sebut secara berpasangan seperti baris 1 kolom 1, atau baris 2 kolom 3, dst. Konsep seperti inilah yang menjadi dasar dari array 2 dimensi.
+
+Untuk membuat array 2 dimensi di dalam bahasa C++, caranya tulis 2 kali tanda kurung siku setelah nama variabel, seperti contoh berikut:
+
+int arr[2][2];
+
+Pada UAS kali ini kami diminta membuat 2 buah program yaitu program pertama adalah membuat array 2 dimensi dengan baris ,kolom dan nilai nya di input sedangkan program ke dua digunakan untuk mencari nilai yanng dapat di bagi 3 7 5
 ## Source Code
                 #include <iostream>
                 using namespace std;
