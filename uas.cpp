@@ -24,7 +24,7 @@ int main(){
        
         for (int j = 0; j < l; j++)
         {
-            cout<<"Masukan nilai untuk Baris "<<i+1<<" dan Kolom  "<<j+1<<" :"; 
+            cout<<"Masukan nilai untuk Baris "<<i+1<<" dan Baris  "<<j+1<<" :"; 
             cin>>arr_num[i][j];
         }
          cout<<endl;
@@ -64,16 +64,36 @@ int main(){
     int m;
     cout<<endl;
     
-    cout<<"masukan batas maksimal deret bilangan :";
-    cin>>m;
+    int t,u;
+    int arr_num2[t][u];
+    cout<<"Masukan Jumlah Baris :";
+    cin>>t;
+   
+    cout<<"Masukan Jumlah Kolom :";
+    cin>>u;
     
-    for (i = 0; i <= m; i++){
-        if (i%3 == 0 ||i%5 == 0 ||i%7 == 0 )
-        {
-            cout<<i<<" ";   
-        }  
+ //2
+ for (i = 0; i < t; i++)
+    {
+     for (int j = 0; j < u; j++)
+    { 
+        cout<<"Masukan nilai untuk Baris "<<i+1<<" dan Baris  "<<j+1<<" :"; 
+        cin>>arr_num2[i][j];
     }
-
+    cout<<endl;
     
+}
 
+
+  for (i = 0; i < t; i++)
+    {
+     for (int j = 0; j < u; j++)
+    {
+        if (arr_num2[i][j]%3 == 0 ||arr_num2[i][j]%5 == 0 ||arr_num2[i][j]%7 == 0 )
+        {
+            cout<<arr_num2[i][j]<<" ";   
+        }  
+        
+    }
+}
 }
