@@ -1,5 +1,3 @@
-# 1227050076MohammadRafliSumaryonoUASDasprog
-
 # Ujian Akhir Semester 
 <br>Mata Kuliah 	:
 <br> Nama		:
