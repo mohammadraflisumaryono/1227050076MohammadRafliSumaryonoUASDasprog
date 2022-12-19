@@ -88,3 +88,4 @@ int main(){
 
 }
 ## Output
+![Screenshot 2022-12-19 142045](https://user-images.githubusercontent.com/71733796/208369689-79128ed1-f37f-49dc-9a33-30dcc4061bbf.png)
